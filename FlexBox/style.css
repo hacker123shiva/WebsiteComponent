@@ -1,0 +1,39 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#container {
+  background-color: #003049;
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
+  border-radius: 5px solid #003049;
+  display: flex;
+  /* we can change Main-axis using flex-direction */
+  /* flex-direction:row;  */ /* default */
+  /*flex-direction: row-reverse;*/ /*right to left */
+  /*flex-direction: column; */ /* top to bottom */
+  /* flex-direction: column-reverse;*/ /* bottom to top */
+
+  /* Justify Content -how the element is distributed about Main-axis */
+  /*justify-content: flex-start;*/ /* default for  row */
+  /*justify-content: flex-end;*/ /*right for row */
+  /* justify-content: center; */ /* center for row */
+  /* justify-content: space-between; */ /* space between for row */
+  /* justify-content: space-around; */ /* space around for row */
+  /* justify-content: space-evenly; */ /* space evenly for row */
+
+  /* flex-wrap - work on cross axis */ /* default is nowrap */
+  /* flex-wrap: wrap; */
+  /*flex-wrap: wrap-reverse;*/ /* right to left */
+}
+
+#container div {
+  background-color: #d62828;
+  width: 200px;
+  height: 200px;
+}
